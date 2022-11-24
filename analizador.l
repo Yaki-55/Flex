@@ -19,7 +19,7 @@ op_log "&&"|"||"
 asig "=" 
 entero [0-9]*
 real [0-9]+"."[0-9]+|[0-9]+".""E"[-|+]?[0-9]+
-id [a-z|A-Z][a-z|A-Z|_|0-9]*
+id [a-z|A-Z][a-z|A-Z|0-9]*|["_"?]
 cadena \".+\"
 caracter '.'
 errores .
